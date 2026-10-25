@@ -1,0 +1,17 @@
+回声 Echo · 进阶实验室界面
+核对日期：2026-10-24
+
+摄影：Abstract blue and purple light patterns
+作者：Liana S / @cherstve_pechivo
+来源：https://unsplash.com/photos/abstract-blue-and-purple-light-patterns-9lsSvIbYIUw
+原图：https://images.unsplash.com/photo-1759735541612-18736db330e9
+下载参数：auto=format&fit=crop&w=1280&q=82
+许可：https://unsplash.com/license
+允许下载、复制、修改和用于商业及非商业项目；不能单卖未经实质修改的照片，不能用来复制竞争图库。
+不是 CC0。作者不为本应用背书。
+本地资源：Atmosphere-Lab / lab.jpg
+用途：实验室标题与练习舞台的低强度蓝紫光影，文字上方覆盖深色渐变以维持对比度。
+
+继续复用现有 Kenney CC0 光晕、环形与粒子素材，来源见其他素材许可文件。
+新增节拍环、音垫四种反馈、趋势刻度和节奏缩略图由 SwiftUI 原生绘制。
+图片随应用离线打包，不新增网络请求或隐私权限。

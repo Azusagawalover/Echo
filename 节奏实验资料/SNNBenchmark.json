@@ -1,0 +1,79 @@
+{
+  "seed": 20261024,
+  "dataSource": "synthetic_only",
+  "humanSamples": 0,
+  "trainCount": 2880,
+  "validationCount": 288,
+  "testCount": 576,
+  "trainPatterns": 180,
+  "validationPatterns": 36,
+  "testPatterns": 48,
+  "split": "disjoint_base_patterns",
+  "labels": [
+    "steady",
+    "fast",
+    "slow",
+    "uneven"
+  ],
+  "snn": {
+    "accuracy": 1.0,
+    "macroF1": 1.0,
+    "confusion": [
+      [
+        144,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        144,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        144,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        144
+      ]
+    ]
+  },
+  "rule": {
+    "accuracy": 1.0,
+    "macroF1": 1.0,
+    "confusion": [
+      [
+        144,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        144,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        144,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        144
+      ]
+    ]
+  },
+  "note": "Synthetic benchmark only; not evidence of human accuracy or energy savings."
+}

@@ -1,0 +1,36 @@
+回声 Echo 节奏模型
+
+任务
+将相邻点击间隔相对标准的偏差分为稳定、整体偏快、整体偏慢和间隔不稳。
+点击时间按 10 ms 时间格处理，误差序列重采样为 16 个位置，正负分路形成 32 路脉冲。
+模型使用 32 个计算步。这是网络时间维度，不是实际演奏中的 32 拍。
+
+模型
+SNN：32 输入、48 个 LIF 神经元、4 类读出，共 1,780 个参数。
+训练参数：beta=0.9，threshold=1，使用 snnTorch 0.9.4 Leaky，reset_delay=False。
+ANN：32 输入、48 个 ReLU 单元、4 类输出，共 1,780 个参数，输入为同一脉冲序列的时间均值。
+Swift 直接实现推理；权重 JSON 位于 Echo/Resources，不调用 Core ML。
+探索滑块仅影响探索计算，不修改正式权重。
+
+适用范围
+4 至 17 个音符，颜色与数量完整对应，标准间隔 0.12 至 2.0 秒，每个间隔的相对误差不超过 50%。
+超范围、缺拍和错色时拒绝模型分类，仍保留可以确定的规则诊断。
+最高类别得分不足 0.65，或前两类差不足 0.15 时，显示不确定；得分不是经真人校准的可信概率。
+
+数据与对照
+固定数据种子为 20261024。基础谱面训练 180、验证 36、测试 48 个，三组不重叠。
+对应样本为 2,880、288、576 条，全部合成；没有真人基准样本。
+规则、ANN、SNN 在同一合成测试集上的准确率均为 100%，宏 F1 均为 1.000。
+不能用这一结果声称 SNN 优于其他方法，也没有能耗优势结论。
+详细分组、混淆矩阵及数据和模型校验值见 ThreeWayBenchmark.json。
+
+训练
+在独立 Python 环境安装 requirements.txt 中的依赖。
+SNN：python train_snn.py --output ./snn-output
+ANN：先查看 python train_ann.py --help，按参数传入 SNN 权重和输出目录。
+重新训练或更改编码后，需要同步 Swift 实现并核对前向数值。
+训练过程不是应用运行的前提，提交的权重已经在工程中。
+
+参考
+https://snntorch.readthedocs.io/en/latest/tutorials/tutorial_5.html
+https://snntorch.readthedocs.io/en/latest/snn.neurons_leaky.html

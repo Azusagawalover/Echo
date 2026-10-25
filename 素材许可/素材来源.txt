@@ -1,0 +1,60 @@
+回声 Echo 1.1 素材说明
+
+粒子贴图：Kenney Particle Pack 1.1
+作者：Kenney Vleugels / Kenney.nl
+来源：https://kenney.nl/assets/particle-pack
+下载：https://kenney.nl/media/pages/assets/particle-pack/f8fe0f8cb8-1677578741/kenney_particle-pack.zip
+许可：Creative Commons Zero（CC0 1.0）
+许可网址：https://creativecommons.org/publicdomain/zero/1.0/
+许可允许个人和商业项目使用；包内原始 License.txt 一并保留。
+
+使用的原始文件（PNG Transparent）：
+light_01.png → EchoLight：结果页柔光
+flare_01.png → EchoFlare：音垫触发光芒
+star_04.png → EchoStar：夜景星点、通关星芒
+应用内按统一色板着色，未引入素材包内其他贴图。
+
+章节背景照片：Unsplash 免费图片，使用 Unsplash License（不是 CC0）。
+许可：https://unsplash.com/license
+允许下载、修改、用于个人与商业项目。禁止直接售卖未经显著修改的图片，
+或将图片集合用于搭建与 Unsplash 类似或竞争的图库服务。
+
+雨巷：masahiro miyagi / @masamasa3
+https://unsplash.com/photos/a-wet-city-street-at-night-with-neon-signs-uZA3P4sA3tM
+https://images.unsplash.com/photo-1644919070369-c0d17244fd88
+
+钟楼：your_mamacita
+https://unsplash.com/photos/a-large-clock-tower-lit-up-at-night-AqNh8X3QVns
+https://images.unsplash.com/photo-1704394603233-66aeab2b51e0
+
+夜行列车：Michel Stockman / @michelstock
+https://unsplash.com/photos/a-train-station-at-night-with-a-train-on-the-tracks-y-pWfZbeh0s
+https://images.unsplash.com/photo-1572987817817-836aaf0e3a1d
+
+回声广场：taha siddiqui / @xxtahaxx
+https://unsplash.com/photos/string-lights-illuminate-a-town-square-at-night-FLJ0RbKAeSg
+https://images.unsplash.com/photo-1770120971749-ad87d832e319
+
+照片作为章节氛围底图，本地打包，叠加统一色调和深色遮罩。
+主要页面新增摄影（同为 Unsplash License）：
+
+创作 / 双人模式：Fethi Benattallah / @fethibenattallah
+https://unsplash.com/photos/MoD3K8evGqw
+https://images.unsplash.com/photo-1758179762756-7ad05acc2e33
+
+初次聆听：insung yoon / @insungpandora
+https://unsplash.com/photos/N1QwvJDvj4E
+https://images.unsplash.com/photo-1567928513899-997d98489fbd
+
+节奏接龙：Pawel Czerwinski / @pawel_czerwinski
+https://unsplash.com/photos/eybM9n4yrpE
+https://images.unsplash.com/photo-1617994452722-4145e196248b
+
+个人主页：Fabien BELLANGER / @fabbel78
+https://unsplash.com/photos/atQvQu_Was0
+https://images.unsplash.com/photo-1600712221598-c643d85dff3b
+
+照片中的建筑不代表关卡所描述的真实地点。摄影作者不为本作品背书。
+城市地图建筑、进度窗户、雨线、章节剪影与时间线为原生图形绘制。
+四种音色与城市短旋律均为程序合成；未使用商业歌曲或游戏谱面。
+玩法和氛围参考节奏医生、冰与火之舞、Phigros、Arcaea，未提取其素材。

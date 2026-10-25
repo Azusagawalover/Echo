@@ -1,0 +1,39 @@
+# macOS / Xcode local files
+.DS_Store
+._*
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+*.xcarchive
+*.ipa
+*.dSYM/
+
+# Signing and credentials
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.mobileprovision
+*.key
+*.pem
+
+# Python environments and training outputs
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+训练输出/
+snn-output/
+ann-output/
+*.pt
+*.pth
+SNNParity.json
+
+# Personal coursework documents and archives
+实验报告/
+*.docx
+*.pdf
+*.zip

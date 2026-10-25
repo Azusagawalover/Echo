@@ -1,0 +1,48 @@
+回声 Echo 1.2 · 夜色质感素材
+核对日期：2026-10-24
+
+一、ambientCG 材质
+作者：Lennart Demes / ambientCG
+许可：Creative Commons CC0 1.0 Universal
+官方许可：https://docs.ambientcg.com/license/
+CC0 原文：https://creativecommons.org/publicdomain/zero/1.0/
+许可允许复制、修改和分发，包括作为游戏原始资源打包。
+
+Material-Paper / paper.jpg
+原始文件：Paper001_1K-JPG_Color.jpg（1024 × 1024）
+来源：https://ambientcg.com/view?id=Paper001
+下载：https://ambientcg.com/get?file=Paper001_1K-JPG.zip
+用途：结算票根的纸纤维表面，叠加浅灰绿底色。
+
+Material-Metal / metal.jpg
+原始文件：Metal030_1K-JPG_Color.jpg（1024 × 1024）
+来源：https://ambientcg.com/view?id=Metal030
+下载：https://ambientcg.com/get?file=Metal030_1K-JPG.zip
+用途：演奏垫和创作设备面板的低强度表面细纹。
+仅打包 Color 色彩图，没有导入三维模型、法线或大体积 PBR 文件。
+
+二、Kenney Light Masks 1.0
+作者：Kenney Vleugels / Kenney.nl
+来源：https://kenney.nl/assets/light-masks
+下载：https://kenney.nl/media/pages/assets/light-masks/6530e254f9-1775631687/kenney_light-masks-1.0.zip
+许可：Creative Commons CC0 1.0 Universal
+原始许可：同目录 Kenney-Light-Masks-License.txt
+使用 Transparent/ 中四张贴图，文件不经重绘，在应用内着色：
+circle_a.png → Mask-Halo / halo.png：演奏垫光晕。
+ring_a.png → Mask-Ring / ring.png：触发后短暂扩散的光环。
+cone_composed_a_noise.png → Mask-Beam / beam.png：首页低强度光束。
+window_a_blur.png → Mask-Window / window.png：已通关窗户的柔光。
+
+三、雨窗摄影
+作者：极雅 张 / northcity
+作品：Raindrops on window with blurred city lights bokeh
+来源：https://unsplash.com/photos/95vDQdX21rM
+原图：https://images.unsplash.com/photo-1766581786833-035a0673a81f
+许可：https://unsplash.com/license （不是 CC0）
+Atmosphere-Rain / rain.jpg：下载宽度 1600，JPEG，作为雨巷首页右侧氛围层。
+允许下载、修改及在个人、商业项目中使用；不单卖原图、不汇编竞争图库。
+作者不为本作品背书，不表示照片中的地点对应虚构关卡。
+
+所有素材本地打包，不新增联网依赖，不新增系统隐私权限。
+票根形状、声波动画、刻度和界面布局为 SwiftUI 原生绘制。
+原有八张摄影和粒子来源仍见“素材来源.txt”。

@@ -1,0 +1,118 @@
+{
+  "seed": 20261024,
+  "dataSource": "synthetic_only",
+  "humanSamples": 0,
+  "trainCount": 2880,
+  "validationCount": 288,
+  "testCount": 576,
+  "trainPatterns": 180,
+  "validationPatterns": 36,
+  "testPatterns": 48,
+  "split": "disjoint_base_patterns",
+  "labels": [
+    "steady",
+    "fast",
+    "slow",
+    "uneven"
+  ],
+  "snn": {
+    "accuracy": 1.0,
+    "macroF1": 1.0,
+    "confusion": [
+      [
+        144,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        144,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        144,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        144
+      ]
+    ]
+  },
+  "rule": {
+    "accuracy": 1.0,
+    "macroF1": 1.0,
+    "confusion": [
+      [
+        144,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        144,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        144,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        144
+      ]
+    ]
+  },
+  "note": "Controlled synthetic benchmark, no human-accuracy or energy claim.",
+  "ann": {
+    "accuracy": 1.0,
+    "macroF1": 1.0,
+    "confusion": [
+      [
+        144,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        144,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        144,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        144
+      ]
+    ]
+  },
+  "datasetSHA256": "8e54e9e83cbf3a98a4370f362b9fb36eaf5aff0f22139ecde6bc2d3d870ae350",
+  "input": "same_pulse_samples_ANN_time_mean_SNN_temporal",
+  "snnModelSHA256": "9124b52ea1da54e2e27ec12b4d1ad9b237919f389c88cf4597643e7e312a0e37",
+  "annSeed": 20261025,
+  "epochs": 55,
+  "parameters": {
+    "ann": 1780,
+    "snn": 1780
+  }
+}
